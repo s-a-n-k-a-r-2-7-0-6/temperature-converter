@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Colorful Background</title>
+    <style>
+      body {
+        background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4, #a18cd1, #fbc2eb, #8ec5fc, #8ec5fc, #b0f3f1);
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .custom-button {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="result">
+      
+      
+ <script src="script.js"></script>
+  </head>
+  <body><center>
+    <h1>Temperature Converter</h1>
+    <label for="temperature">Temperature:</label>
+    <input type="text" id="temperature" />
+    <br />
+    <input type="radio" id="celsius" name="unit" value="celsius" checked />
+    <label for="celsius">Celsius</label>
+    <input type="radio" id="fahrenheit" name="unit" value="fahrenheit" />
+    <label for="fahrenheit">Fahrenheit</label>
+    <input type="radio" id="kelvin" name="unit" value="kelvin" />
+    <label for="kelvin">Kelvin</label>
+    <br />
+<button class="custom-button" onclick="convertTemperature()">Convert</button>
+    </div>
+  </body>
+</html>
